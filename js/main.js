@@ -11,35 +11,35 @@ function game() {
   }
 
 
-  // choixOrdi();
-  // // choix user
-  // x =prompt("game");
-  //
-  // while (x == ordi){
-  //   alert("equal");
-  //   choixOrdi();
-  //   x =prompt("game");
-  // }
+  choixOrdi();
+  // choix user
+  x =prompt("game");
+
+  while (x == ordi){
+    alert("equal");
+    choixOrdi();
+    x =prompt("game");
+  }
 
 
-    if (x ==="paper" && ordi ===y[2]){
-      alert("you win");
-    }
-
-    else if (x ==="ciseaux" && ordi ===y[0]){
-      alert("you win");
-    }
-    else if (x ==="ciseaux"  && ordi ===y[2]){
-      alert("you lost");
-    }
-
-    else if (x ==="paper" && ordi ===y[1]){
-      alert("you lost");
-    }
-    else if (x === "stone" && ordi ===y[0]){
-      alert("you lost");
-    }
-    else if (x ==="stone" && ordi ===y[1]){
-      alert("you win");
-    }
+    // if (x ==="paper" && ordi ===y[2]){
+    //   alert("you win");
+    // }
+    //
+    // else if (x ==="ciseaux" && ordi ===y[0]){
+    //   alert("you win");
+    // }
+    // else if (x ==="ciseaux"  && ordi ===y[2]){
+    //   alert("you lost");
+    // }
+    //
+    // else if (x ==="paper" && ordi ===y[1]){
+    //   alert("you lost");
+    // }
+    // else if (x === "stone" && ordi ===y[0]){
+    //   alert("you lost");
+    // }
+    // else if (x ==="stone" && ordi ===y[1]){
+    //   alert("you win");
+    // }
 }
