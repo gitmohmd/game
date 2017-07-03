@@ -95,6 +95,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #880e4f;
+  position: relative;
+}
+
+.start {
+  margin: 30% 50%;
+  position: absolute;
+
+
+}
+
+
 
 
 
