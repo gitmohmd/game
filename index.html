@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>game</title>
+  </head>
+  <body>
+    <!-- <script type="text/javascript">
+var x;
+var y =["paper", "ciseaux", "stone"];
+var ordi =0;
+var z;
+
+// choix ordi
+function choixOrdi(){
+  z = Math.floor((Math.random() * 3));
+  ordi = y[z];
+}
+
+
+choixOrdi();
+// choix user
+x =prompt("game");
+
+while (x == ordi){
+  console.log("equal");
+  choixOrdi();
+  x =prompt("game");
+} -->
+
+
+  if (x ==="paper" && ordi ===y[2]){
+    console.log("you win");
+  }
+
+  else if (x ==="ciseaux" && ordi ===y[0]){
+    console.log("you win");
+  }
+  else if (x ==="ciseaux"  && ordi ===y[2]){
+    console.log("you lost");
+  }
+
+  else if (x ==="paper" && ordi ===y[1]){
+    console.log("you lost");
+  }
+  else if (x === "stone" && ordi ===y[0]){
+    console.log("you lost");
+  }
+  else if (x ==="stone" && ordi ===y[1]){
+    console.log("you win");
+  }
+
+    </script>
+  </body>
+</html>
