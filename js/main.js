@@ -5,21 +5,21 @@ function game() {
   var z;
 
   // choix ordi
-  // function choixOrdi(){
-  //   z = Math.floor((Math.random() * 3));
-  //   ordi = y[z];
-  // }
-
-
-  choixOrdi();
-  // choix user
-  x =prompt("game");
-
-  while (x == ordi){
-    alert("equal");
-    choixOrdi();
-    x =prompt("game");
+  function choixOrdi(){
+    z = Math.floor((Math.random() * 3));
+    ordi = y[z];
   }
+
+
+  // choixOrdi();
+  // // choix user
+  // x =prompt("game");
+  //
+  // while (x == ordi){
+  //   alert("equal");
+  //   choixOrdi();
+  //   x =prompt("game");
+  // }
 
 
     if (x ==="paper" && ordi ===y[2]){
